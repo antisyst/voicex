@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chakra+Petch:wght@400;500;600;700&family=DM+Sans:wght@400;500;700&family=Gemunu+Libre&family=Josefin+Sans&family=Jost:wght@500&family=Lexend:wght@400;500;800&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+KR&family=Open+Sans:wght@400;500;600&family=Oxygen&family=Plus+Jakarta+Sans:wght@800&family=Poppins:ital,wght@0,400;0,500;0,600;1,400&family=Prompt&family=Questrial&family=Quicksand:wght@600&family=Roboto+Slab:wght@400;500&family=Tilt+Warp&family=Titillium+Web&display=swap');
+
+::selection {
+    background: rgba(0, 40, 83, 1);
+    color: #ffff;
+}
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 0 15%;
+    background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+
+  /* opera 11.10+ */
+  background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+
+  /* ie 10+ */
+  background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+
+  /* global 92%+ browsers support */
+  background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+}
+.extended-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.log-content {
+    padding-top: 2vh;
+}
+.log-content h3 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 22px;
+}
+.log-content p {
+    font-size: 18px;
+    margin-top: 3vh;
+}
+.log-content p span {
+    font-weight: bold;
+}
+.action-template {
+    border: 0.5px solid #fff;
+    padding: 14px 23px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+    margin-top: 1vh;
+    cursor: pointer;
+    font-size: 20px;
+    user-select: none;
+  background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  color: #ffff;
+  border-radius: 7px;
+}
+.action-new-content {
+    margin-top: 4vh;
+    border-radius: 3px;
+    border: 1.3px solid #fff;
+    padding: 20px 15px;
+    width: 70%;
+    font-weight: bold;
+    font-size: 19px;
+    height: auto;
+    background: rgba(0, 40, 83, 0.1);
+}
+.placeholder-element {
+    font-weight: bold;
+    margin-bottom: 7px;
+    display: none;
+}
+.creator-content {
+    text-align: center;
+    user-select: none;
+}
+.creator-content a {
+    color: #ffff;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 700px) {
+    .log-content svg {
+        width: 150px;
+        height: 62px;
+    }
+    .log-content h3 {
+        margin: 0;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .log-content p {
+        font-size: 18px;
+        margin-top: 3vh;
+        display: none;
+    }
+    body {
+      padding: 0 6%;
+    }
+    .action-template {
+        border: 0.5px solid #fff;
+        padding: 14px 23px;
+        font-family: 'Chakra Petch', sans-serif;
+        font-weight: bold;
+        margin-top: 3vh;
+        cursor: none;
+        font-size: 18px;
+        user-select: none;
+      background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+      color: #ffff;
+      border-radius: 7px;
+    }
+    .action-new-content {
+        margin-top: 0.1vh;
+        border-radius: 3px;
+        border: 1.3px solid #fff;
+        padding: 20px 15px;
+        width: 90%;
+        font-weight: bold;
+        font-size: 19px;
+        height: auto;
+        background: rgba(0, 40, 83, 0.1);
+    }
+    .placeholder-element {
+        font-weight: bold;
+        margin-bottom: 7px;
+        display: block;
+    }
+} 
